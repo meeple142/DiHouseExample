@@ -1,17 +1,17 @@
 ﻿namespace DomainNoDI.KitchenStuff;
 
 // Kitchen class
-public class Kitchen : IKitchen
+public class Kitchen
 {
-    private IRefrigerator _refrigerator;
-    private IOven _oven;
-    private IDishwasher _dishwasher;
+    private Refrigerator _refrigerator;
+    private Oven _oven;
+    private Dishwasher _dishwasher;
 
-    public Kitchen(IRefrigerator refrigerator, IOven oven, IDishwasher dishwasher)
+    public Kitchen()
     {
-        _refrigerator = refrigerator;
-        _oven = oven;
-        _dishwasher = dishwasher;
+        _refrigerator = new Refrigerator();
+        _oven = new Oven();
+        _dishwasher = new Dishwasher();
     }
 
     public void UseRefrigerator()

@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.KitchenStuff;
+﻿namespace DomainWithDI.KitchenStuff;
 
 // Interface for Dishwasher
 public interface IDishwasher

@@ -6,15 +6,15 @@ namespace DomainNoDI;
 
 public class House
 {
-    private IKitchen _kitchen;
-    private IBedroom _bedroom;
-    private IGarage _garage;
+    private Kitchen _kitchen;
+    private Bedroom _bedroom;
+    private Garage _garage;
 
-    public House(IKitchen kitchen, IBedroom bedroom, IGarage garage)
+    public House()
     {
-        _kitchen = kitchen;
-        _bedroom = bedroom;
-        _garage = garage;
+        _kitchen = new Kitchen();
+        _bedroom = new Bedroom();
+        _garage = new Garage();
     }
 
     public void StartDay()

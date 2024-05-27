@@ -1,17 +1,17 @@
 ﻿namespace DomainWithDI.BedroomStuff;
 
 // Bedroom class
-public class Bedroom 
+public class Bedroom : IBedroom
 {
-    private Bed _bed;
-    private Wardrobe _wardrobe;
-    private Lamp _lamp;
+    private IBed _bed;
+    private IWardrobe _wardrobe;
+    private ILamp _lamp;
 
-    public Bedroom()
+    public Bedroom(IBed bed, IWardrobe wardrobe, ILamp lamp)
     {
-        _bed = new Bed();
-        _wardrobe = new Wardrobe();
-        _lamp = new Lamp();
+        _bed = bed;
+        _wardrobe = wardrobe;
+        _lamp = lamp;
     }
 
     public void UseBed()

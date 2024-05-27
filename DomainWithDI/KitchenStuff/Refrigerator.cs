@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.KitchenStuff;
 
 // Refrigerator class
-public class Refrigerator
+public class Refrigerator : IRefrigerator
 {
     public void StoreFood()
     {

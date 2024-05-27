@@ -1,17 +1,17 @@
 ﻿namespace DomainWithDI.GarageStuff;
 
 // Garage class
-public class Garage
+public class Garage : IGarage
 {
-    private Car _car;
-    private Toolbox _toolbox;
-    private Bicycle _bicycle;
+    private ICar _car;
+    private IToolbox _toolbox;
+    private IBicycle _bicycle;
 
-    public Garage()
+    public Garage(ICar car, IToolbox toolbox, IBicycle bicycle)
     {
-        _car = new Car();
-        _toolbox = new Toolbox();
-        _bicycle = new Bicycle();
+        _car = car;
+        _toolbox = toolbox;
+        _bicycle = bicycle;
     }
 
     public void UseCar()

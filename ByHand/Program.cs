@@ -1,4 +1,4 @@
-﻿namespace ByHand
+﻿namespace DIByHand
 {
     internal class Program
     {

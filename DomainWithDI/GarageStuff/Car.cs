@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.GarageStuff;
 
 // Car class
-public class Car
+public class Car : ICar
 {
     public void StartEngine()
     {

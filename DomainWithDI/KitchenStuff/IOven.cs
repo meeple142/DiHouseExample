@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.KitchenStuff;
+﻿namespace DomainWithDI.KitchenStuff;
 
 // Interface for Oven
 public interface IOven

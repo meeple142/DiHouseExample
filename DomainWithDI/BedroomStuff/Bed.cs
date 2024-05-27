@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.BedroomStuff;
 
 // Bed class
-public class Bed
+public class Bed : IBed
 {
     public void MakeBed()
     {

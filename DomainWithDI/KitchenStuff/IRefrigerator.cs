@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.KitchenStuff;
+﻿namespace DomainWithDI.KitchenStuff;
 
 // Interface for Refrigerator
 public interface IRefrigerator

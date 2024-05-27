@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.GarageStuff;
+﻿namespace DomainWithDI.GarageStuff;
 
 // Interface for Car
 public interface ICar

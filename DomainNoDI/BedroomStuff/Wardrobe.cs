@@ -1,7 +1,7 @@
 ﻿namespace DomainNoDI.BedroomStuff;
 
 // Wardrobe class
-public class Wardrobe : IWardrobe
+public class Wardrobe
 {
     public void Open()
     {

@@ -1,7 +1,7 @@
 ﻿namespace DomainNoDI.GarageStuff;
 
 // Toolbox class
-public class Toolbox : IToolbox
+public class Toolbox
 {
     public void Open()
     {

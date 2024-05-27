@@ -1,7 +1,7 @@
 ﻿namespace DomainNoDI.BedroomStuff;
 
 // Bed class
-public class Bed : IBed
+public class Bed
 {
     public void MakeBed()
     {

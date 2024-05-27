@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.BedroomStuff;
+﻿namespace DomainWithDI.BedroomStuff;
 
 // Interface for Bed
 public interface IBed

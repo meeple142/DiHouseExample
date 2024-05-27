@@ -1,4 +1,4 @@
-﻿namespace DomainNoDI.BedroomStuff
+﻿namespace DomainWithDI.BedroomStuff
 {
     public interface IBedroom
     {

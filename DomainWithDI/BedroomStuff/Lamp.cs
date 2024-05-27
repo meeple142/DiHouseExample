@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.BedroomStuff;
 
 // Lamp class
-public class Lamp
+public class Lamp : ILamp
 {
     public void TurnOn()
     {

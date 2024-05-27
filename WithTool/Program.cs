@@ -1,4 +1,4 @@
-﻿namespace WithTool
+﻿namespace DIWithTool
 {
     internal class Program
     {

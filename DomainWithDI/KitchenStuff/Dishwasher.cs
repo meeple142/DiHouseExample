@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.KitchenStuff;
 
 // Dishwasher class
-public class Dishwasher
+public class Dishwasher : IDishwasher
 {
     public void WashDishes()
     {
