@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.GarageStuff;
 
 // Bicycle class
-public class Bicycle : IBicycle
+public class Bicycle
 {
     public void Ride()
     {

@@ -1,7 +1,7 @@
 ﻿namespace DomainWithDI.KitchenStuff;
 
 // Oven class
-public class Oven : IOven
+public class Oven
 {
     public void Bake()
     {
